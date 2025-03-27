@@ -1,5 +1,5 @@
 h1{
-    background-color: rgb(130, 196, 174);
+    background-color: rgb(119, 118, 105);
     
 }
 body{
@@ -10,6 +10,7 @@ body{
     border-radius: 7px;
     width: 300px;
     height:400px;
+    background-color: burlywood;
        
 }
 div{
