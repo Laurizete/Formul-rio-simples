@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+   
+<body>
+    
+    <h1>Cadastro de Cliente</h1>
+    <!-- action: o arquivo ou pagina que os dados serão enviados> -->
+     <!-- method:GET receber ou pegar dados - POST enviar dados  -->
+    <form action="/enviar/formulario" method="GET">    
+
+     <div>
+    <label>Nome</label>
+    <input type="text"/>
+ </div>  
+ 
+    <div>
+        <label for="email"> e-mail:</label>
+        <input type="email" name="email">
+    </div>
+
+<div>
+    <label>Telefone</label>
+    <input type="text"/>
+</div>
+    
+    <div>
+        <label for="birthday">Data de nascimento:</label>
+        <input type="date" name="birthday">
+    </div>
+    
+    <div>
+        <label for="moda"> Modalidade matriculada </label>
+        <select name="moda">
+            <option value="natacao">Natação</option>
+            <option value="pil">Pilates</option>
+            <option value="musc">Musculação</option>
+            <option value="danc">Dança</option>
+        </select>
+    
+    </div>
+    <div>
+        <label for="comment">Observações</label>
+        <textarea name="comment"></textarea>
+
+    </div>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Cadastrar">
+    
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(130, 196, 174);
+    
+}
+body{
+    padding-bottom: 500px;
+    margin: 200px;
+    padding: 30px 30px;
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 7px;
+    width: 300px;
+    height:400px;
+       
+}
+div{
+    margin-bottom: 10px;
+   
+}
+div input,
+div label{
+    display: block;
+  
+}
+
+
+
